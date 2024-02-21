@@ -1,0 +1,60 @@
+<section class="my-3">
+  <div class="home">
+    <div class="content">
+      <div>
+        <h2 class="fs-1 text-center">CONATCT SECTION</h2>
+        <div class="lines my-4">
+          <div class="line"></div>
+          <i class="fa-solid fa-star mx-2"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+    <form
+      novalidate=""
+      action=""
+      class="w-50 p-3 mx-auto mt-5 ng-pristine ng-valid ng-touched"
+    >
+      <label for="userName" [class.__top]="!username.length"> UserName</label>
+      <input
+        [(ngModel)]="username"
+        id="userName"
+        type="text"
+        placeholder="userName"
+        name="userName"
+        class="form-control border-0 border-bottom position-relative ng-pristine ng-valid ng-touched"
+      />
+      <label for="userName" [class.__top]="!userage.length"> UserAge</label
+      ><input
+        [(ngModel)]="userage"
+        id="userAge"
+        type="text"
+        placeholder="userAge"
+        name="userAge"
+        class="form-control border-0 border-bottom position-relative ng-pristine ng-valid ng-touched"
+      />
+      <label for="userName" [class.__top]="!useremail.length"> UserEmail</label>
+      <input
+        [(ngModel)]="useremail"
+        id="userEmail"
+        type="text"
+        placeholder="userEmail"
+        name="userEmail"
+        class="form-control border-0 border-bottom position-relative ng-pristine ng-valid ng-touched"
+      />
+      <label for="userName" [class.__top]="!userpass.length">
+        UserPassword</label
+      >
+      <input
+        [(ngModel)]="userpass"
+        id="userPassword"
+        type="text"
+        placeholder="userPassword"
+        name="userPassword"
+        class="form-control border-0 border-bottom position-relative ng-pristine ng-valid ng-touched"
+      /><button class="btn mt-4 text-white" style="background-color: #1abc9c">
+        send Message
+      </button>
+    </form>
+  </div>
+</section>

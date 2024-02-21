@@ -1,0 +1,22 @@
+
+section{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    background-color: white;
+    height: 4px;
+    width: 80px;
+    
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
